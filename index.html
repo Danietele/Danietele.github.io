@@ -1,63 +1,37 @@
-<html>
-  <head><link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-<link rel="icon" href="https://raw.githubusercontent.com/Danietele/Danietele.github.io/master/favicon.ico" type="image/x-icon">
-<link rel="shortcut icon" href="https://raw.githubusercontent.com/Danietele/Danietele.github.io/master/favicon.ico" type="image/x-icon">
-<title>
-Pokemon°</title>
-<style>
-/*gestione menù fisso*/
-ul#MENU{position: fixed;top: 10px;right: 50px;
-    width: 210px;padding: 5px; background:orange;border: 1px solid #99C}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 250px;
-    background-color:white;
-}
-/*gestione scritte*/
-li a {
-    display: block;
-    color: white;
-    padding: 8px 0 8px 16px;
-    text-decoration: none;
-}
-/*gestione home*/
-li a.active {
-    background-color:red;
-    color: white;
-}
-/*gestione scritte evidenz*/
-li a:hover:not(.active) {
-    background-color: yellow;
-    color:red;
-}
-</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Pok&eacute;mon Buttons for each type</title>
+	<link rel="stylesheet" type="text/css" href="./types.css" />
 </head>
 <body>
-  <marquee>olèeee</marquee>
-<ul id="MENU" > 
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-<form class="form-inline">
-   <div class="form-group ">
-    <label class="sr-only" for="exampleInputEmail3">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
-  </div>
-   <div class="form-group">
-    <label class="sr-only" for="exampleInputPassword3">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
-  </div>
-  <div class="checkbox">
-    <label>
-      <input type="checkbox"> Remember me
-    </label>
-  </div>
-  <button type="submit" class="btn btn-default">Sign in</button>
-</form>
-</ul>
-</div>
- </body>
+	<div class='container'>
+		
+		<span class="type normal left">normal</span>
+		<span class="type fire left">fire</span>
+		<span class="type water left">water</span>
+		<span class="type electric left">electric</span>
+		<span class="type grass left">grass</span>
+		<span class="type ice left">ice</span>
+		<span class="type ground left">ground</span>
+		<span class="type flying left">flying</span>
+		<span class="type ghost left">ghost</span>
+		<span class="type rock left">rock</span>
+		<span class="type fighting left">fighting</span>
+		<span class="type poison left">poison</span>
+		<span class="type psychic left">psychic</span>
+		<span class="type bug left">bug</span>
+		<span class="type dark left">dark</span>
+		<span class="type steel left">steel</span>
+		<span class="type dragon left">dragon</span>
+		<span class="type left">???</span>
+		
+		<div class="clear"></div>
+		
+		<h2>Some examples:</h2>
+		
+		<p>Type: <span class="type fire">Fire</span> / <span class="type water">Water</span></p>
+		
+	</div>
+</body>
 </html>
