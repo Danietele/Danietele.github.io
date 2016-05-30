@@ -8,56 +8,6 @@ Pokemon°</title>
 body {
   background: #0c2b3c;
 }
-
-@keyframes shake {
-  0% {
-    transform: rotate(0);
-  }
-  25% {
-    transform: rotate(20deg);
-  }
-  50% {
-    transform: rotate(-20deg);
-  }
-  75% {
-    transform: rotate(20deg);
-  }
-  100% {
-    transform: rotate(0);
-  }
-}
-.pokeball {
-  position: absolute;
-  left: 10%;
-  top: 50%;
-  margin-top: -100px;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background-image: conic-gradient(#db372f 25%, #ccd2d6 0 45%, #dadee2 0 45%, #e8ebed 0 55%, #f6f7f8 0 65%, #fff 0 75%, #df4c45 25%);
-}
-.pokeball:before {
-  content: "";
-  position: absolute;
-  top: 37%;
-  left: 37%;
-  width: 20%;
-  height: 20%;
-  border-radius: 50%;
-  background: conic-gradient(#fff 35%, #f6f7f8 0 45%, #e8ebed 0 55%, #ccd2d6 0 65%, #afb9c0 0 75%, #fff 25%);
-  border: 7px solid #0c2b3c;
-}
-.pokeball:hover {
-  cursor: pointer;
-  animation-name: shake;
-  animation-duration: 1s;
-  animation-iteration-count: 2;
-  animation-timing-function: ease-in-out;
-}
-.pokeball:active:before {
-  top: 38%;
-  background: white;
-}
 /*Pikachu&Ash*/
 
 * {
@@ -200,7 +150,7 @@ body{
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><div class="pokeball"></div></a>
+      <a class="navbar-brand" href="#">Home</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
