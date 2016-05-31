@@ -6,12 +6,6 @@
 Pokemon°</title>
 <style>
 .navbar { margin:0}
-.mySlides {
- 	display: block;
-	margin: 0;
-	text-align: center;
-	max-height:500px;
-}
 /*Pikachu&Ash*/
 * {
   -moz-box-sizing: border-box;
@@ -196,28 +190,6 @@ body{
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-<div class="w3-content w3-display-container" style="max-width=800px">
- <img class="mySlides" src="https://raw.githubusercontent.com/Danietele/Danietele.github.io/master/PKMN%20FLOYD.jpg" style="width:100%">
-
-  </div>
-</div>
-
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 10000); // Change image every 2 seconds
-}
-</script>
  <marquee><div id="pikachu"></div>
 <div id="ash"></div></marquee>
  </body>
